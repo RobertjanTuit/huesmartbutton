@@ -32,7 +32,6 @@ metadata {
         
 }
 
-
 def parse(String description) {
     def event = zigbee.getEvent(description)
     def descLog = zigbee.parseDescriptionAsMap(description)
