@@ -16,7 +16,7 @@
  */
 
 metadata {
-    definition (name: "Hue Smart Button", namespace: "RobertjanTuit", author: "Matvei Vevitsis", vid: "SmartThings-smartthings-SmartSense_Button", ocfDeviceType: "x.com.st.d.remotecontroller") 
+    definition (name: "Hue Smart Button", namespace: "rtuit", author: "Matvei Vevitsis", vid: "SmartThings-smartthings-SmartSense_Button", ocfDeviceType: "x.com.st.d.remotecontroller") 
     {
        	capability "Actuator"
         capability "Battery"
