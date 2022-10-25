@@ -29,7 +29,6 @@ metadata {
 
         fingerprint profileId: "0104", inClusters: "0000, 0001, 0003, FC00, 1000", outClusters: "0019, 0000, 0003, 0004, 0006, 0008, 0005, 1000", manufacturer: "Philips", model: "ROM001", deviceJoinName: "Hue Smart Button" 
     }
-        
 }
 
 def parse(String description) {
