@@ -15,21 +15,9 @@
  *
  */
 
-import groovy.json.JsonOutput
-import physicalgraph.zigbee.zcl.DataType
-
 metadata {
-    definition (
-    name: "Hue Smart Button", 
-    namespace: "circlefield05082", 
-    author: "Matvei Vevitsis", 
-    //mnmn: "SmartThingsCommunity", 
-	vid: "SmartThings-smartthings-SmartSense_Button", 
-    //vid: "03f89b0d-2bd5-313d-a096-78981c1cbaa2"
-	ocfDeviceType: "x.com.st.d.remotecontroller"
-    ) 
+    definition (name: "Hue Smart Button", namespace: "RobertjanTuit", author: "Matvei Vevitsis", vid: "SmartThings-smartthings-SmartSense_Button", ocfDeviceType: "x.com.st.d.remotecontroller") 
     {
-        
        	capability "Actuator"
         capability "Battery"
         capability "Button"
@@ -38,7 +26,6 @@ metadata {
         capability "Refresh"
         capability "Sensor"
         capability "Health Check"
-        
 
         fingerprint profileId: "0104", inClusters: "0000, 0001, 0003, FC00, 1000", outClusters: "0019, 0000, 0003, 0004, 0006, 0008, 0005, 1000", manufacturer: "Philips", model: "ROM001", deviceJoinName: "Hue Smart Button" 
     }
